@@ -1,7 +1,41 @@
 * {
     font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    margin: 2% auto;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 .title-dafuk {
     font-family: 'Roboto Slab', serif;
+    margin: 5px auto;
+    font-size: 3rem;
+}
+
+.shit-box {
+    width: 50%;
+    height: 30%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.shit-quotes-container {
+    width: 75%;
+    height: 100%;
+    margin: 10% auto;
+}
+
+.shit-quote {
+    width: 80%;
+    border: 2px solid darkgray;
+    min-height: 45px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: 70px 10px;
 }
