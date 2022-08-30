@@ -39,3 +39,42 @@ p {
     border-radius: 5px;
     padding: 70px 10px;
 }
+
+form, input {
+    font-size: 1.5rem;
+}
+
+.text-input {
+    border: 5px solid white;
+    width: 70%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.text-input:hover, .text-input:focus {
+    border: 5px solid greenyellow;
+}
+
+label {
+    font-size: 2rem;
+    font-style: bold;
+    color: greenyellow;
+}
+
+.button-input {
+    background-color: greenyellow;
+    border: 5px solid transparent;
+    height: 80px;
+    width: 35%;
+    color: black;
+    text-transform: uppercase;
+    font-style: bold;
+    border-radius: 5px;
+}
+
+
+
+.button-input:focus-within, .button-input:hover {
+    border: 0;
+    border: 5px solid salmon;
+}
